@@ -1,5 +1,8 @@
 ---
 applications:
- - name: movies-reviews-database
-   random-route: false
-   memory: 128M
+ - name: movies-reviews-database-f18
+   random-route: true
+   memory: 256M
+   services:
+    - Coursera - Natural Language Understanding
+    - Coursera - Cloudant
