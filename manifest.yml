@@ -1,10 +1,8 @@
 ---
 applications:
- - name: movies-reviews-database-f18
-   random-route: true
-   memory: 128M
-   services:
-    - Coursera - Natural Language Understanding
-    - Coursera - Cloudant
-   routes:
-    - movies-reviews-database-f18.eu-gb.cf.appdomain.cloud
+  name: movies-reviews-database-f18
+  random-route: false
+  memory: 128M
+  services:
+  - Coursera - Natural Language Understanding
+  - Coursera - Cloudant
