@@ -6,3 +6,5 @@ applications:
    services:
     - Coursera - Natural Language Understanding
     - Coursera - Cloudant
+   routes:
+    - movies-reviews-database-f18.eu-gb.cf.appdomain.cloud
